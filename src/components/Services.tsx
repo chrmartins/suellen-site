@@ -6,7 +6,7 @@ const services = [
     icon: Brain,
     title: "Psicoterapia Individual",
     description:
-      "Acompanhamento psicológico individual para adolescentes e adultos, com foco nas suas necessidades e objetivos específicos.",
+      "Acompanhamento psicológico individual para adultos, com foco nas suas necessidades e objetivos específicos.",
   },
   {
     icon: Video,

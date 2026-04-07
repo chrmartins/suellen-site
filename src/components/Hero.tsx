@@ -43,7 +43,7 @@ export default function Hero() {
               </span>{" "}
               e acompanhamento individualizado para{" "}
               <span className="font-medium text-violet-700">
-                adolescentes e adultos.
+                adultos.
               </span>
             </p>
 
@@ -56,21 +56,6 @@ export default function Hero() {
               </Button>
             </div>
 
-            {/* Stats */}
-            <div className="flex flex-wrap gap-6 justify-center lg:justify-start mt-12">
-              {[
-                { value: "Online", label: "e Presencial" },
-                { value: "Humanizado", label: "Atendimento" },
-                { value: "Individual", label: "e personalizado" },
-              ].map((stat) => (
-                <div key={stat.label} className="text-center lg:text-left">
-                  <p className="text-lg font-bold gradient-text">
-                    {stat.value}
-                  </p>
-                  <p className="text-xs text-slate-500 mt-0.5">{stat.label}</p>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Photo */}
@@ -78,11 +63,14 @@ export default function Hero() {
             <div className="relative">
               {/* Blob background */}
               <div className="absolute inset-0 gradient-primary blob-shape opacity-20 scale-110" />
-              <div className="relative z-10 blob-shape overflow-hidden w-72 h-80 sm:w-80 sm:h-96 lg:w-96 lg:h-[460px] shadow-2xl">
+              <div className="relative z-10 blob-shape overflow-hidden w-72 h-80 sm:w-80 sm:h-96 lg:w-96 lg:h-[460px] shadow-2xl bg-violet-100">
                 <img
                   src="/assets/foto.png"
                   alt="Suellen Rodrigues, Psicóloga Clínica"
                   className="w-full h-full object-cover object-top"
+                  fetchPriority="high"
+                  decoding="sync"
+                  loading="eager"
                 />
               </div>
             </div>

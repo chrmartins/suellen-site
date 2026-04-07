@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 260 15% 15%;
+    --primary: 258 80% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 70% 65%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 258 40% 95%;
+    --muted: 258 20% 96%;
+    --muted-foreground: 258 15% 50%;
+    --border: 258 20% 88%;
+    --input: 258 20% 88%;
+    --ring: 258 80% 55%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, #7c3aed 0%, #60a5fa 100%);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #7c3aed 0%, #60a5fa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .blob-shape {
+    border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  }
+}

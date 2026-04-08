@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Brain, Clock, Leaf, Smile, Users, Video } from "lucide-react";
+import { Brain, Clock, Video } from "lucide-react";
 
 const services = [
   {

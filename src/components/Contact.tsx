@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { InstagramIcon } from "@/components/ui/instagram-icon";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { contactSchema, type ContactFormData } from "@/lib/contactSchema";
@@ -97,13 +96,13 @@ export default function Contact() {
             ))}
 
             {/* Availability note */}
-            <div className="p-5 rounded-2xl bg-gradient-to-br from-violet-500 to-sky-500 text-white">
+            {/* {/* <div className="p-5 rounded-2xl bg-gradient-to-br from-violet-500 to-sky-500 text-white">
               <p className="font-semibold text-sm mb-1">
                 Horários de atendimento
               </p>
               <p className="text-sm opacity-90">Segunda a sexta: 8h – 20h</p>
               <p className="text-sm opacity-90">Sábado: 8h – 13h</p>
-            </div>
+            </div> */}
           </div>
 
           {/* Form */}

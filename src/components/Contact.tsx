@@ -20,15 +20,9 @@ const contactInfo = [
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@suellenrodrigues.com.br",
-    href: "mailto:contato@suellenrodrigues.com.br",
-  },
-  {
-    icon: InstagramIcon,
-    label: "Instagram",
-    value: "@suellen.rodrigues.psi",
-    href: "https://instagram.com/suellen.rodrigues.psi",
-  },
+    value: "psicologasuellenrodrigues05@gmail.com",
+    href: "mailto:psicologasuellenrodrigues05@gmail.com",
+  }
 ];
 
 export default function Contact() {

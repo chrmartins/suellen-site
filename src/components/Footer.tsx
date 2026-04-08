@@ -1,4 +1,3 @@
-import { InstagramIcon } from "@/components/ui/instagram-icon";
 import { Mail, Phone } from "lucide-react";
 
 const links = [
@@ -9,15 +8,10 @@ const links = [
 ];
 
 const socials = [
-  {
-    icon: InstagramIcon,
-    href: "https://instagram.com/suellen.rodrigues.psi",
-    label: "Instagram",
-  },
   { icon: Phone, href: "https://wa.me/5521971331197", label: "WhatsApp" },
   {
     icon: Mail,
-    href: "mailto:contato@suellenrodrigues.com.br",
+    href: "mailto:psicologasuellenrodrigues05@gmail.com",
     label: "E-mail",
   },
 ];

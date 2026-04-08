@@ -53,8 +53,7 @@ export default function About() {
               </p>
               <p>
                 Ofereço um espaço seguro, ético e de confiança, onde você pode
-                se expressar livremente e construir, junto comigo, caminhos de
-                autoconhecimento, fortalecimento emocional e transformação.
+                se expressar livremente e construir, junto comigo, novas possibilidades.
               </p>
               <p className="italic text-violet-600 font-medium border-l-4 border-violet-300 pl-4">
                 "Se você procura um acompanhamento psicológico baseado no

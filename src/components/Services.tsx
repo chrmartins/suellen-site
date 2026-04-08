@@ -69,7 +69,7 @@ export default function Services() {
         {/* CTA */}
         <div className="text-center mt-14">
           <p className="text-slate-600 mb-5 text-lg">
-            Pronto para começar sua jornada de autoconhecimento?
+            Pronto para começar sua jornada?
           </p>
           <Button size="lg" onClick={scrollToContact}>
             Agendar minha consulta

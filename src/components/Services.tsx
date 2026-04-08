@@ -6,7 +6,7 @@ const services = [
     icon: Brain,
     title: "Psicoterapia Individual",
     description:
-      "Acompanhamento psicológico individual para adultos, com foco nas suas necessidades e objetivos específicos.",
+      "Acompanhamento psicológico individual para adultos.",
   },
   {
     icon: Video,
@@ -15,29 +15,11 @@ const services = [
       "Sessões via plataformas seguras, sem sair de casa. Comodidade e privacidade para o seu cuidado emocional.",
   },
   {
-    icon: Smile,
-    title: "Autoconhecimento",
-    description:
-      "Processo terapêutico que favorece a compreensão de si mesmo, das próprias emoções e dos padrões relacionais.",
-  },
-  {
-    icon: Users,
-    title: "Relações Interpessoais",
-    description:
-      "Apoio para questões relacionadas a vínculos afetivos, familiares, profissionais e sociais.",
-  },
-  {
     icon: Clock,
     title: "Saúde Mental",
     description:
       "Atendimento a demandas como ansiedade, depressão, estresse, luto e outras questões emocionais.",
-  },
-  {
-    icon: Leaf,
-    title: "Fortalecimento Emocional",
-    description:
-      "Construção de recursos internos para lidar com os desafios da vida com mais clareza e equilíbrio.",
-  },
+  }
 ];
 
 export default function Services() {

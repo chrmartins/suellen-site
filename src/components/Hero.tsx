@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Text content */}
           <div className="flex-1 text-center lg:text-left">
             <span className="inline-block px-4 py-1.5 text-xs font-semibold tracking-widest uppercase text-violet-600 bg-violet-100 rounded-full mb-5">
-              Psicóloga Clínica · CRP 06/XXXXX
+              Psicóloga Clínica · CRP 05/85974
             </span>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight mb-2">

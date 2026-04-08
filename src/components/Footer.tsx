@@ -93,7 +93,7 @@ export default function Footer() {
             <div className="mt-5 space-y-1 text-sm text-slate-400">
               <p>Seg – Sex: 8h – 20h</p>
               <p>Sábado: 8h – 13h</p>
-              <p className="mt-2 text-xs text-slate-500">CRP 06/XXXXX</p>
+              <p className="mt-2 text-xs text-slate-500">CRP 05/85974</p>
             </div>
           </div>
         </div>

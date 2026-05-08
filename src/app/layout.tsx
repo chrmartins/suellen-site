@@ -64,6 +64,9 @@ export const metadata: Metadata = {
     },
   },
   // Referenciadas para uso interno — evita import não utilizado
+  verification: {
+    google: "RyXQEEaNMaJ5RExyg2kvbT5-RVESqtHKPuOrAOMFdl8",
+  },
   other: {
     "contact:email": EMAIL,
     "contact:whatsapp": WHATSAPP_HREF,

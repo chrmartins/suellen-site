@@ -1,4 +1,7 @@
+"use client";
+
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 const links = [
   { label: "Início", href: "#inicio" },
@@ -29,10 +32,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img
+              <Image
                 src="/assets/logo.png"
                 alt="Logo Suellen Rodrigues"
-                className="h-10 w-10 object-contain"
+                width={40}
+                height={40}
+                className="object-contain"
               />
               <div>
                 <p className="font-bold text-white">Suellen Rodrigues</p>

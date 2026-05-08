@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Brain, Clock, Video } from "lucide-react";
 
@@ -5,8 +7,7 @@ const services = [
   {
     icon: Brain,
     title: "Psicoterapia Individual",
-    description:
-      "Acompanhamento psicológico individual para adultos.",
+    description: "Acompanhamento psicológico individual para adultos.",
   },
   {
     icon: Video,
@@ -19,7 +20,7 @@ const services = [
     title: "Saúde Mental",
     description:
       "Atendimento a demandas como ansiedade, depressão, estresse, luto e outras questões emocionais.",
-  }
+  },
 ];
 
 export default function Services() {
@@ -31,7 +32,7 @@ export default function Services() {
   return (
     <section
       id="servicos"
-      className="py-20 lg:py-28 bg-gradient-to-br from-violet-50 via-white to-sky-50"
+      className="py-20 lg:py-28 bg-linear-to-br from-violet-50 via-white to-sky-50"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}

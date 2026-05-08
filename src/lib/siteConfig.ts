@@ -1,5 +1,6 @@
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://psicologasuellenrodrigues.com.br";
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://psicologasuellenrodrigues.com.br";
 
 export const SITE_NAME = "Suellen Rodrigues | Psicóloga Clínica";
 

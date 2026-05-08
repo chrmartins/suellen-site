@@ -1,6 +1,9 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import { useNavStore } from "@/store/useNavStore";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const navLinks = [
@@ -44,10 +47,12 @@ export default function Navbar() {
               handleNavClick("#inicio");
             }}
           >
-            <img
+            <Image
               src="/assets/logo.png"
               alt="Suellen Rodrigues Psicóloga"
-              className="h-10 w-10 object-contain"
+              width={40}
+              height={40}
+              className="object-contain"
             />
             <div className="leading-tight">
               <p className="text-sm font-semibold text-violet-700 tracking-wide">

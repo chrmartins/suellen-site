@@ -1,5 +1,8 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -15,7 +18,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen pt-16 flex items-center overflow-hidden bg-gradient-to-br from-violet-50 via-white to-sky-50"
+      className="relative min-h-screen pt-16 flex items-center overflow-hidden bg-linear-to-br from-violet-50 via-white to-sky-50"
     >
       {/* Background decorations */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-violet-200 rounded-full opacity-20 blur-3xl pointer-events-none" />
@@ -42,9 +45,7 @@ export default function Hero() {
                 Escuta genuína, atendimento humanizado
               </span>{" "}
               e acompanhamento individualizado para{" "}
-              <span className="font-medium text-violet-700">
-                adultos.
-              </span>
+              <span className="font-medium text-violet-700">adultos.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
@@ -55,7 +56,6 @@ export default function Hero() {
                 Conhecer mais
               </Button>
             </div>
-
           </div>
 
           {/* Photo */}
@@ -63,14 +63,14 @@ export default function Hero() {
             <div className="relative">
               {/* Blob background */}
               <div className="absolute inset-0 gradient-primary blob-shape opacity-20 scale-110" />
-              <div className="relative z-10 blob-shape overflow-hidden w-72 h-80 sm:w-80 sm:h-96 lg:w-96 lg:h-[460px] shadow-2xl bg-violet-100">
-                <img
+              <div className="relative z-10 blob-shape overflow-hidden w-72 h-80 sm:w-80 sm:h-96 lg:w-96 lg:h-115 shadow-2xl bg-violet-100">
+                <Image
                   src="/assets/foto.png"
                   alt="Suellen Rodrigues, Psicóloga Clínica"
-                  className="w-full h-full object-cover object-top"
-                  fetchPriority="high"
-                  decoding="sync"
-                  loading="eager"
+                  fill
+                  priority
+                  sizes="(max-width: 640px) 288px, (max-width: 1024px) 320px, 384px"
+                  className="object-cover object-top"
                 />
               </div>
             </div>

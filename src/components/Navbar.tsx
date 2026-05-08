@@ -88,7 +88,8 @@ export default function Navbar() {
           <button
             className="md:hidden p-2 rounded-lg text-slate-600 hover:text-violet-600 hover:bg-violet-50 transition-colors"
             onClick={toggleMenu}
-            aria-label="Abrir menu"
+            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
+            aria-expanded={isMenuOpen}
           >
             {isMenuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>

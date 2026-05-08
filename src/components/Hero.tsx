@@ -32,11 +32,9 @@ export default function Hero() {
               Psicóloga Clínica · CRP 05/85974
             </span>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight mb-2">
-              Suellen
-            </h1>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold gradient-text leading-tight mb-6">
-              Rodrigues
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              <span className="text-slate-800">Suellen</span>{" "}
+              <span className="gradient-text">Rodrigues</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8">

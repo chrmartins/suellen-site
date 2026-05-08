@@ -7,7 +7,14 @@ import {
   WHATSAPP_HREF,
 } from "@/lib/siteConfig";
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -39,6 +46,12 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    creator: "@suellenrodrigues",
+  },
   authors: [{ name: "Suellen Rodrigues", url: SITE_URL }],
   creator: "Suellen Rodrigues",
   robots: {
@@ -64,7 +77,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className={inter.variable}>
       <body suppressHydrationWarning>{children}</body>
     </html>
   );

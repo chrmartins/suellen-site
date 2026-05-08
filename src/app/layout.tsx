@@ -50,7 +50,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    creator: "@suellenrodrigues",
   },
   authors: [{ name: "Suellen Rodrigues", url: SITE_URL }],
   creator: "Suellen Rodrigues",
